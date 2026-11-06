@@ -1,17 +1,23 @@
 public class Drago {
     private String nome;
-
-    // Costruttore con il solo nome
+    private Cavaliere cacciatore;
     public Drago(String nome) {
         this.nome = nome;
     }
 
-    // Getter e Setter
-    public String getNome() {
-        return nome;
+    public String Distruggi() {
+        return this.nome + " sta distruggendo il villaggio";
     }
 
-    public void setNome(String nome) {
-        this.nome = nome;
+    public Cavaliere getCacciatore() {
+        return cacciatore;
+    }
+
+    public void setCacciatore(Cavaliere cacciatore) {
+        this.cacciatore = cacciatore;
+    }
+
+    public String getNome() {
+        return nome;
     }
 }
