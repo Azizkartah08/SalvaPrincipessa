@@ -1,15 +1,15 @@
 public class Principessa {
     private String nome;
-
+    private Drago carceriere;
     public Principessa(String nome) {
         this.nome = nome;
     }
 
-    public String getNome() {
-        return nome;
+    public Drago getCarceriere() {
+        return carceriere;
     }
 
-    public void setNome(String nome) {
-        this.nome = nome;
+    public void setCarceriere(Drago carceriere) {
+        this.carceriere = carceriere;
     }
 }
